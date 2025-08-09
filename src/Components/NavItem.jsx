@@ -8,8 +8,8 @@ function NavItem({ path, name }) {
     <Link
         to={path}
       className={
-        currentPath === path
-          ? "underline"
+        currentPath !== "/signin" && currentPath === path  
+          ? "underline decoration-red-600 decoration-[1.5px]"
           : "text-black hover:text-black" // or your custom hover effect
       }
     >

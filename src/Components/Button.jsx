@@ -1,3 +1,4 @@
+import Login from "../AuthenTicate/Login";
 
 const type ={
     primary:[
@@ -20,7 +21,7 @@ const type ={
 }
 function Button({buttonName , buttonType}){
     return(
-        <button className= {type[buttonType].join(" ") + "w-2.5 px-6 py-[5px] text-md rounded-md text-white cursor-pointer"}>{buttonName}</button>
+        <button className= {type[buttonType].join(" ") + "w-3 px-6 py-[5px] text-md rounded-md text-white cursor-pointer"}>{buttonName}</button>
     );
 }
 
