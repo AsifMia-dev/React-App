@@ -9,7 +9,7 @@ function NavItem({ path, name }) {
         to={path}
       className={
         currentPath === path
-          ? "text-red-500 font-bold"
+          ? "underline"
           : "text-black hover:text-black" // or your custom hover effect
       }
     >
