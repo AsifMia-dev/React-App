@@ -21,7 +21,7 @@ function Layout({children}){
                                 <NavItem path="/about" name="About" />
                             </li>
                         </div>
-                        <li className="mr-10 bg-blue-500 rounded px-4 py-2 shadow">
+                        <li className="mr-10 bg-blue-500 rounded px-4 py-2 shadow hover:bg-blue-600">
                             <NavItem path="/signin" name="Sign In" />
                         </li>
                     </ul>

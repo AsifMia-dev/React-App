@@ -9,7 +9,7 @@ function NavItem({ path, name }) {
         to={path}
       className={
         currentPath !== "/signin" && currentPath === path  
-          ? "underline decoration-red-600 decoration-[1.5px]"
+          ? "text-amber-500"
           : "text-black hover:text-black" // or your custom hover effect
       }
     >
