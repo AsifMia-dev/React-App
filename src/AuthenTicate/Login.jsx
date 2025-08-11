@@ -18,7 +18,7 @@ function Login(){
                 <InputGroup 
                 label="Password" 
                 placeholder="Place your password" 
-                type="text" 
+                type="password" 
                 />
                 <button className="w-[79%] bg-blue-500 py-2 rounded cursor-pointer hover:bg-blue-600">Login</button>
                 <div class="text-sm mb-4 text-gray-600">

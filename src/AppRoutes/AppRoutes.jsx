@@ -7,10 +7,10 @@ import Register from "../AuthenTicate/Register";
 
 
 
-function AppRoutes(){
+function AppRoutes({greet,tasks}){
     return (
         <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home greet={greet} tasks={tasks}/>} />
             <Route path="/about" element={<About />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="signin" element={<SignIn />} />
