@@ -16,7 +16,7 @@ function CreateTask({greet}){
     }
     return(
         <>
-            <div className="w-[50%] mx-auto bg-gray-200 h-auto rounded-lg shadow py-2 ">
+            <div className="w-[50%] mx-auto mt-10 bg-gray-200 h-auto rounded-lg shadow py-2 ">
                 <h1 className="px-4 text-lg font-mono font-bold">Add New Task</h1>
                 <div className="container mx-auto px-4 py-2">
                     <form className="flex flex-col" onSubmit={handleSubmit}>

@@ -7,7 +7,7 @@ const type ={
     ],   
     secondary:[
         "bg-gray-500", 
-        "hover:bg-gray-600",
+        "hover:bg-gray-400",
    
     ],
     success:[
@@ -19,9 +19,9 @@ const type ={
         "hover:bg-red-600", 
     ]
 }
-function Button({buttonName , buttonType}){
+function Button({buttonName , buttonType , onClick}){
     return(
-        <button className= {type[buttonType].join(" ") + "w-3 px-6 py-[5px] text-md rounded-md text-white cursor-pointer"}>{buttonName}</button>
+        <button onClick={onClick} className= {type[buttonType].join(" ") + "w-3 px-6 py-[5px] text-md rounded-md text-white cursor-pointer"}>{buttonName}</button>
     );
 }
 
