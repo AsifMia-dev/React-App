@@ -1,7 +1,7 @@
 import Button from "../Components/Button";
 
 function TaskButtonGroup({active,onClick}){
-     const buttons = ["Active", "In Progress", "Completed"];
+     const buttons = ["All Task", "In Progress", "Completed"];
 
     return(
         <div className="flex flex-row gap-x-2 ">
